@@ -8,8 +8,6 @@ import { Component, h } from '@stencil/core';
 export class MyComponent {
   render() {
     return <div>
-      <slot name="links">
-      </slot>
     </div>;
   }
 }
